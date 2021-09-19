@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int a,b;
+  printf("Enter the Value a and b ::");
+  scanf("%d %d",&a,&b);
+  printf("Swap the No");
+  a = a+b;
+  b = a-b;
+  a = a-b;
+  printf("\na=%d \nb=%d",a, b);
+    return 0;
+}
