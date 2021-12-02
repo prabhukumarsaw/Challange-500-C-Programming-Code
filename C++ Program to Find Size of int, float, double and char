@@ -1,0 +1,34 @@
+//============================================================================
+// Question       :  C++ Program to Find Size of int, float, double and char
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : To find the size of variable,  sizeof operator is used i.e sizeof(dataType).
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	    cout << "\nSize of int = " << sizeof(int) << endl;
+	    cout << "\nSize of Float = " << sizeof(float)<<endl;
+	    cout << "\nSize of double = " << sizeof(double)<<endl;
+	    cout << "\nSize of Char= " << sizeof(char)<<endl;
+
+
+
+	    return 0;
+}
+
+Output:
+
+
+Size of int = 4
+
+Size of Float = 4
+
+Size of double = 8
+
+Size of Char= 1
