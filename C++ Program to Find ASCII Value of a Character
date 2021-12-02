@@ -1,0 +1,22 @@
+//============================================================================
+// Question       :  C++ Program to Find ASCII Value of a Character
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description :  ASCII value (an integer number between 0 and 127) ASCII value of ‘A’ is 65.
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+     char c;
+
+     cout<< "Enter any Character :: ";
+     cin >> c;
+
+     cout<< "\nThe ASCII Value of Character [ "<< c << " ] is :: " << int(c)<<"\n";
+
+     return 0;
+}
