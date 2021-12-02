@@ -1,0 +1,25 @@
+//============================================================================
+// Question       :  C++ Program to Multiply two Numbers
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Entered by user
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+		int num1,num2,multiply;
+	    cout << "\nEnter Number num1"<< endl;
+	    cin>>num1;
+	    cout << "\nEnter Number num2"<< endl;
+	    cin>>num2;
+	    multiply= num1*num2;
+
+	    cout<<"result of multiply:"<<multiply;
+
+
+	    return 0;
+}
