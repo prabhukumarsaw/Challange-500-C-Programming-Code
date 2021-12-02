@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : challange500.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : C++ Program to Print Number (Entered by the User)
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cout << "Enter Number " << endl;
+	cin>>n;
+
+	cout<<"Result.:"<<n;
+
+	return 0;
+}
