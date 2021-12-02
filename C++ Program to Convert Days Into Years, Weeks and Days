@@ -1,0 +1,35 @@
+//============================================================================
+// Question       :  C++ Program to Convert Days Into Years, Weeks and Days
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description :
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+     int day, weeks,year;
+
+     cout<< "Enter Day: ";
+     cin >> day;
+
+     year=day/365;
+     day = day%365;
+     weeks = day/7;
+     day = day%7;
+     cout<< "\nNo. of Years: " <<year<<"\nNo. of Weeks :: "<<weeks<<"\nNo. of Days :: "<<day<<"\n";
+
+     return 0;
+}
+
+
+Output::
+
+Enter Day: 52
+
+No. of Years: 0
+No. of Weeks :: 7
+No. of Days :: 3
