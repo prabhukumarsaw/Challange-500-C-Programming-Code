@@ -1,0 +1,57 @@
+
+#include <iostream>
+using namespace std;
+struct array
+{
+	int A[20];
+	int size;
+	int length;
+};
+
+int Search(struct array arr, int key)
+{
+	int l, h, mid;
+	l=0;
+	h= arr.length-1;
+	while(l<=h)
+	{
+		mid= (l+h)/2;
+		if(key==arr.A[mid])
+			return mid;
+		else if(key<arr.A[mid])
+			h= mid-1;
+			else
+				l=mid+1;
+	}
+	return -1;
+
+}
+
+void Display(struct array arr)
+{
+	for(int i=0;i<arr.length;i++)
+	{
+		cout<<arr.A[i]<<endl;
+	}
+}
+int main()
+{
+	int key;
+     struct array arr={{2,3,5,7,9},20,5};
+     cout<<"Enter Key to search"<<endl;
+     cin>>key;
+     cout<<"Result:"<<Search(arr,key)<<endl;
+     Display(arr);
+     return 0;
+}
+
+
+output::
+Enter Key to search
+55
+Result:-1(not found)
+2
+3
+5
+7
+9
