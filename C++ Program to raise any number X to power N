@@ -1,0 +1,15 @@
+//C++ Program to raise any number X to power N
+
+#include <iostream>
+#include<math.h> //for pow()
+using namespace std;
+int main() {
+  int x,n,res;
+  cout<<"Enter Number ";
+  cin>>x;
+  cout<<"Enter Power ";
+  cin>>n;
+  res=pow(x,n);
+  cout << "result "<<res<<endl;
+ 
+}
