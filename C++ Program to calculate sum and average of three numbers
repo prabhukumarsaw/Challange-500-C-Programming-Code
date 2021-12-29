@@ -1,0 +1,13 @@
+//C++ Program to calculate sum and average of three numbers
+
+#include <iostream>
+using namespace std;
+int main() {
+  int a,b,s=0,avg=0;
+  cout<<"Enter Number ";
+  cin>>a>>b;
+  s=a+b;
+  avg=s/2;
+  cout << "sum result "<<s<<endl;
+  cout << "Average result "<<avg<<endl;
+}
