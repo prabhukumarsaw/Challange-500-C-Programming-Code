@@ -1,0 +1,24 @@
+//C++ Program to Check given number is Even or Odd
+
+#include <iostream>
+#include<math.h> //for pow()
+using namespace std;
+int main() {
+  int x,n,res;
+  cout<<"Enter Number ";
+  cin>>x;
+  if(x==0)
+  {
+    cout<<"Invalid No";
+  }
+  else if(x%2==0)
+  {
+    cout<<"Even";
+  }
+  else
+  {
+    cout<<"Odd";
+  }
+ 
+  return 0;
+}
